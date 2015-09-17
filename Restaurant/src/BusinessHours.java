@@ -1,4 +1,6 @@
-package com.team.jmaps.bookeatnow.domain.Restaurant;
+import java.sql.Time;
+
+//package com.team.jmaps.bookeatnow.domain.Restaurant;
 
 public class BusinessHours {
 

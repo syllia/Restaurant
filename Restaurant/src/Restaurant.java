@@ -1,15 +1,15 @@
-package com.team.jmaps.bookeatnow.domain.Restaurant;
+//package com.team.jmaps.bookeatnow.domain.Restaurant;
 
-import User.*;
+/*import User.*;
 import Restaurant.Reservation.*;
 import Order.*;
-import Restaurant.Menu.*;
+import Restaurant.Menu.*;*/
 
 public class Restaurant extends Member {
 
-	private string restaurantLogoPath;
-	private string restaurantName;
-	private string descriptionImagesPath;
+	private String restaurantLogoPath;
+	private String restaurantName;
+	private String descriptionImagesPath;
 	private int capacity;
 	private int numberOfSeatRemaining;
 	private Comment[] comments;
