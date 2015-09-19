@@ -1,12 +1,17 @@
-package com.team.jmaps.bookeatnow.domain.Restaurant.Menu;
+package Menu;
 
 public class MenuItem {
 
-	private string name;
-	private string description;
+	private String name;
+	private String description;
 	private float price;
-
-	public string getName() {
+	
+	public MenuItem(String p_name,String p_description,float p_price) {
+		name=p_name;
+		description =p_description;
+		price=p_price;
+	}
+	public String getName() {
 		return this.name;
 	}
 
@@ -14,11 +19,11 @@ public class MenuItem {
 	 * 
 	 * @param name
 	 */
-	public void setName(string name) {
+	public void setName(String name) {
 		this.name = name;
 	}
 
-	public string getDescription() {
+	public String getDescription() {
 		return this.description;
 	}
 
@@ -26,7 +31,7 @@ public class MenuItem {
 	 * 
 	 * @param description
 	 */
-	public void setDescription(string description) {
+	public void setDescription(String description) {
 		this.description = description;
 	}
 

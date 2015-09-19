@@ -1,3 +1,8 @@
+package others;
+import java.util.UUID;
+
+import Reservation.*;
+import Menu.*;
 //package com.team.jmaps.bookeatnow.domain.Restaurant;
 
 /*import User.*;
@@ -5,7 +10,7 @@ import Restaurant.Reservation.*;
 import Order.*;
 import Restaurant.Menu.*;*/
 
-public class Restaurant extends Member {
+public class Restaurant /*extends Member*/ {
 
 	private String restaurantLogoPath;
 	private String restaurantName;
@@ -21,6 +26,7 @@ public class Restaurant extends Member {
 	 * @param newReservation
 	 */
 	public boolean registerReservation(Reservation newReservation) {
+		return false;
 
 	}
 
@@ -28,16 +34,16 @@ public class Restaurant extends Member {
 	 * 
 	 * @param newOrder
 	 */
-	public boolean registerDeliveryOrder(Order newOrder) {
+	/*public boolean registerDeliveryOrder(Order newOrder) {
 
-	}
+	}*/
 
 	/**
 	 * 
 	 * @param menuName
 	 * @param description
 	 */
-	public void createNewMenu(string menuName, string description) {
+	public void createNewMenu(String menuName, String description) {
 		// TODO - implement Restaurant.createNewMenu
 		throw new UnsupportedOperationException();
 	}
@@ -55,7 +61,7 @@ public class Restaurant extends Member {
 	 * @param newReservation
 	 */
 	public boolean acceptsReservation(Reservation newReservation) {
-
+		return false;
 	}
 
 	/**
@@ -63,7 +69,7 @@ public class Restaurant extends Member {
 	 * @param menuId
 	 * @param foodId
 	 */
-	public void addFoodToMenu(Uid menuId, Uid foodId) {
+	public void addFoodToMenu(UUID menuId, UUID foodId) {
 		// TODO - implement Restaurant.addFoodToMenu
 		throw new UnsupportedOperationException();
 	}
@@ -73,7 +79,7 @@ public class Restaurant extends Member {
 	 * @param menuId
 	 * @param sousMenuId
 	 */
-	public void addSousMenuToMenu(Uid menuId, Uid sousMenuId) {
+	public void addSousMenuToMenu(UUID menuId, UUID sousMenuId) {
 		// TODO - implement Restaurant.addSousMenuToMenu
 		throw new UnsupportedOperationException();
 	}

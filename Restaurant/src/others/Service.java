@@ -1,3 +1,4 @@
+package others;
 //package com.team.jmaps.bookeatnow.domain.Restaurant;
 
 public class Service {

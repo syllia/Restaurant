@@ -1,7 +1,7 @@
 package com.team.jmaps.bookeatnow.domain.Restaurant.Reservation;
 
+import others.Restaurant.*;
 import Order.*;
-import Restaurant.*;
 
 public class ReservationManager {
 

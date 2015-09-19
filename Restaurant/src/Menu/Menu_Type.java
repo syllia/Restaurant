@@ -1,4 +1,4 @@
-package com.team.jmaps.bookeatnow.domain.Restaurant.Menu;
+package Menu;
 
 public enum Menu_Type {
 	CHILDREN_MENU, BREAKFAST, LUNCH, DINER

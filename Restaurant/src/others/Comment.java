@@ -1,3 +1,4 @@
+package others;
 //package com.team.jmaps.bookeatnow.domain.Restaurant;
 
 import java.util.Date;
