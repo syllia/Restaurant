@@ -6,38 +6,42 @@ public class Appreciation {
 	private int numberOfDownVotes;
 	private float globalRating;
 	
-	Appreciation(int upVotes, int downVotes, float globalRate){
-		numberOfUpVotes = upVotes;
-		numberOfDownVotes = downVotes;
-		globalRating = globalRate;
+	public Appreciation(int numberOfUpVotes, int numberOfDownVotes,
+			float globalRating) {
+		super();
+		this.numberOfUpVotes = numberOfUpVotes;
+		this.numberOfDownVotes = numberOfDownVotes;
+		this.globalRating = globalRating;
 	}
-	
-	private int getNumberOfUpVotes(){
+
+	public int getNumberOfUpVotes() {
 		return numberOfUpVotes;
 	}
-	
-	private int getNumberOfDownVotes(){
+
+	public void setNumberOfUpVotes(int numberOfUpVotes) {
+		this.numberOfUpVotes = numberOfUpVotes;
+	}
+
+	public int getNumberOfDownVotes() {
 		return numberOfDownVotes;
 	}
-	
-	private float getGlobalRating(){
-		return numberOfUpVotes/(numberOfDownVotes+numberOfUpVotes);
+
+	public void setNumberOfDownVotes(int numberOfDownVotes) {
+		this.numberOfDownVotes = numberOfDownVotes;
+	}
+
+	public float getGlobalRating() {
+		return globalRating;
+	}
+
+	public void setGlobalRating(float globalRating) {
+		this.globalRating = globalRating;
 	}
 	
-	private void setNumberOfUpVotes(int numberOfUp){
-		numberOfUpVotes = numberOfUp;
-	}
 	
-	private void setNumberOfDownVotes(int numberOfDown){
-		numberOfDownVotes = numberOfDown;
-	}
 	
-	void addPositiveVote(){
-		setNumberOfUpVotes(numberOfUpVotes+1);
-	}
 	
-	void addNegativeVote(){
-		setNumberOfDownVotes(numberOfDownVotes+1);
-	}
+	
+	
 }
 
